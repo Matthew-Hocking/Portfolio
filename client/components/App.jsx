@@ -1,12 +1,11 @@
 import React from 'react'
+import { Route } from 'react-router-dom'
 
-import Words from './Words'
-import AddWord from './AddWord'
+import Nav from './Nav'
 
 const App = () => (
   <div className='app-container'>
-    <Words />
-    <AddWord />
+    <Route path="/" component={Nav} />
   </div>
 )
 
