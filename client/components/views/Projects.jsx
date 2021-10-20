@@ -1,6 +1,7 @@
 import React from 'react'
 
-import projects from '../../data/projects'
+import Nav from './Nav'
+import projects from '../../../data/projects'
 
 const Projects = () => {
   console.log(projects)
@@ -8,6 +9,7 @@ const Projects = () => {
 
   return (
     <div>
+      <Nav />
         {projects.map(project => {
           return (
             <div className="project-card">
