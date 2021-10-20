@@ -11,14 +11,23 @@ body {
 
 html {
   font-family: "Montserrat", sans-serif;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+:hover {
+  transition: 0.2s;
 }
 
 .nav--container {
   font-weight: 700;
   font-size: large;
   letter-spacing: 2px;
-  /* background: rgb(3,152,158);
-  background: linear-gradient(90deg, rgba(3,152,158,1) 0%, rgba(159,53,177,1) 100%); */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -27,16 +36,48 @@ html {
   min-height: 52px;
   width: 100vw;
 }
-
 .nav--container a {
   margin: 0px 10px;
-  color: #fff;
-  text-decoration: none;
   padding: 10px 10px;
 }
 
 .name {
   font-size: 1.7rem;
+}
+
+.landing {
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.landing-title {
+  margin-top: 11vh;
+  margin-left: 6vw;
+}
+
+.landing-links {
+  align-self: flex-end;
+  margin-top: 40vh;
+  margin-right: 10vw;
+}
+.landing-links a {
+  font-size: 1.4rem;
+  margin: 50px;
+  border-radius: 25px;
+  padding: 15px 15px;
+}
+.landing-links a:hover {
+  background-color: #66fcf1;
+  color: #222;
+}
+
+#name {
+  font-size: 6rem;
+}
+
+#role {
+  font-size: 3.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map*/
