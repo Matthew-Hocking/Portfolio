@@ -23,6 +23,13 @@ module.exports = {
         exclude: /node_modules/
       },
       {
+        test: /\.(png|jpe?g|gif)$/i,
+        loader: 'file-loader',
+        options: {
+          outputPath: 'images',
+        }
+      },
+      {
         test: /\.(sa|sc|c)ss$/,
         use: [
           {

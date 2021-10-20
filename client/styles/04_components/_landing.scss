@@ -1,7 +1,6 @@
 .landing {
   display: flex;
   flex-direction: column;
-  z-index: 2;
 }
 
 .landing-title {
@@ -18,10 +17,6 @@
     margin: 50px;
     border-radius: 25px;
     padding: 15px 15px;
-  }
-  a:hover {
-    background-color: $col-buttons;
-    color: $col-background;
   }
 }
 

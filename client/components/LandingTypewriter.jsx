@@ -5,7 +5,7 @@ const LandingTypewriter = () => {
   const phrases = [
     "Full Stack Web Developer",
     "Curious and Creative",
-    "Expert Googler"
+    "Expert Googler",
   ]
 
   return (
@@ -15,7 +15,7 @@ const LandingTypewriter = () => {
       loop: true,
       autoStart: true, 
       strings: phrases,
-      delay: 100,
+      delay: 80,
       deleteSpeed: 20,
       }}
       onInit={typewriter => {

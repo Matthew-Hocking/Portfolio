@@ -9,7 +9,6 @@ const Landing = () => {
       <div className="landing-title">
         <h1 id="name">Matthew Hocking</h1>
         <h1 id="role"><LandingTypewriter /></h1>
-        {/* <LandingTypewriter /> */}
       </div>
       <div className="landing-links">
         <Link to="/projects">Projects</Link>
