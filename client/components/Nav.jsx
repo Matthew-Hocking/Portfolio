@@ -9,8 +9,9 @@ const Nav = () => {
       </div>
       <div className="navigations">
         <Link to="/projects">Projects</Link>
-        <Link to="/blog">Blog</Link>
+        <Link to="/blogs">Blog</Link>
         <Link to="/about_me">About Me</Link>
+        <Link to="/contacts">Contact</Link>
       </div>
     </div>
   )

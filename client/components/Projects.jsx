@@ -2,22 +2,20 @@ import React from 'react'
 
 import projects from '../../data/projects'
 
-const Projects = (props) => {
+const Projects = () => {
   console.log(projects)
 
 
   return (
     <div>
-      <ul>
         {projects.map(project => {
           return (
             <div className="project-card">
-              <li><a href={`${project.link}`} >{project.name}</a></li>
-              <li>{project.description}</li>
+              <h3><a href={`${project.link}`} >{project.name}</a></h3>
+              <h3>{project.description}</h3>
             </div>
           )
         })}
-      </ul>
     </div>
   )
 }
