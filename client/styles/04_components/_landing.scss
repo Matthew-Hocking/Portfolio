@@ -1,11 +1,17 @@
 .landing {
+  color: $col-text;
+  background-image: url('bg.jpg');
   display: flex;
   flex-direction: column;
+  height: 80vh;
+  justify-content: center;
 }
 
 .landing-title {
-  margin-top: 11vh;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
   margin-left: 6vw;
+  // text-shadow: #000 2px 2px 2px;
 }
 
 .landing-links {

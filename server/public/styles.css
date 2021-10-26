@@ -6,12 +6,10 @@
 }
 
 body {
-  background-color: #222;
-}
-
-html {
-  font-family: "Montserrat", sans-serif;
-  color: #fff;
+  background-color: #456;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -24,7 +22,7 @@ a :hover {
 }
 
 .nav--container {
-  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
   font-size: large;
   letter-spacing: 2px;
   display: flex;
@@ -45,12 +43,17 @@ a :hover {
 }
 
 .landing {
+  color: #fff;
+  background-image: url(c3accec294bf2ffb7c11.jpg);
   display: flex;
   flex-direction: column;
+  height: 80vh;
+  justify-content: center;
 }
 
 .landing-title {
-  margin-top: 11vh;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 200;
   margin-left: 6vw;
 }
 

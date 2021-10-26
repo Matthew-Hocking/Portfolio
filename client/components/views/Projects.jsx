@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Nav from './Nav'
 import projects from '../../../data/projects'
 
 const Projects = () => {
@@ -9,10 +8,10 @@ const Projects = () => {
 
   return (
     <div>
-      <Nav />
         {projects.map(project => {
           return (
             <div className="project-card">
+              {/* <img src={project.image} alt={project.name} /> */}
               <h3><a href={`${project.link}`} >{project.name}</a></h3>
               <h3>{project.description}</h3>
             </div>

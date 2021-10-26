@@ -4,11 +4,11 @@
 
 body {
   background-color: $col-background;
-}
-
-html {
-  font-family: 'Montserrat', sans-serif;
-  color: $col-text;
+  background-image: url('bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // color: $col-text;
 }
 
 a {
