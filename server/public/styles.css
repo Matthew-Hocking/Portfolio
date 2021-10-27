@@ -1,13 +1,11 @@
-/*!*******************************************************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./client/styles/index.scss ***!
-  \*******************************************************************************************************************/
 * {
   margin: 0px;
 }
 
-body {
+.app-container {
+  height: 100vh;
   background-color: #456;
-  background-image: url(c3accec294bf2ffb7c11.jpg);
+  background-image: url(images/a6e84f7cdb1fdb9b3c1c7baaf77ee351.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +43,6 @@ a :hover {
 
 .landing {
   color: #fff;
-  background-image: url(c3accec294bf2ffb7c11.jpg);
   display: flex;
   flex-direction: column;
   height: 80vh;
