@@ -1,14 +1,51 @@
+.title {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #3057E1;
+}
+
+#name {
+  font-size: 6rem;
+}
+
+#role {
+  font-size: 3.5rem;
+  color: #3057E1;
+}
+
 * {
   margin: 0px;
 }
 
-.app-container {
-  height: 100vh;
-  background-color: #456;
-  background-image: url(images/a6e84f7cdb1fdb9b3c1c7baaf77ee351.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+html {
+  overflow-x: hidden;
+  color: #fff;
+}
+
+body {
+  background-color: #212121;
+  font-family: "Montserrat", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #212121;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+}
+
+.feed {
+  margin-left: 250px;
 }
 
 a {
@@ -20,39 +57,59 @@ a :hover {
   transition: 0.2s;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 .nav--container {
-  font-family: "Montserrat", sans-serif;
-  font-size: large;
-  letter-spacing: 2px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 5vw;
-  min-height: 52px;
-  width: 100vw;
+  height: 100%;
+  width: 120px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #121212;
+  overflow-x: hidden;
+  border-right: 1px solid #444;
 }
-.nav--container a {
-  margin: 0px 10px;
-  padding: 10px 10px;
+
+a {
+  margin: 10px 0px;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+
+.nav-home svg:hover {
+  color: #fff;
 }
 
 .name {
   font-size: 1.7rem;
 }
 
+.nav-svg ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+a:hover {
+  border-radius: 5px;
+  background-color: #3057E1;
+}
+
 .landing {
   color: #fff;
   display: flex;
   flex-direction: column;
-  height: 80vh;
+  height: 100vh;
   justify-content: center;
-}
-
-.landing-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 200;
-  margin-left: 6vw;
 }
 
 .landing-links {
@@ -67,12 +124,8 @@ a :hover {
   padding: 15px 15px;
 }
 
-#name {
-  font-size: 6rem;
-}
-
-#role {
-  font-size: 3.5rem;
+.project-container {
+  max-width: 75vw;
 }
 
 /*# sourceMappingURL=styles.css.map*/

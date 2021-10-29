@@ -2,13 +2,32 @@
   margin: 0px;
 }
 
-.app-container {
-  height: 100vh;
+html {
+  overflow-x: hidden;
+  color: $col-text;
+}
+
+body {
   background-color: $col-background;
-  background-image: url('bg.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: $col-background;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $col-text;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  // border: 3px solid $col-nav;  /* creates padding around scroll thumb */
+}
+
+.feed {
+  margin-left: 250px;
 }
 
 a {
@@ -18,4 +37,9 @@ a {
   :hover {
     transition: 0.2s;
   }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
 }
