@@ -1,6 +1,6 @@
 import React from 'react'
 
-import projects from '../../../data/projects'
+import projects from '../../data/projects'
 
 const Projects = () => {
 
@@ -15,7 +15,7 @@ const Projects = () => {
             <div className="project-card" key={project.name}>
               <img src={project.image} alt={project.name} />
               <h2>{project.name}</h2>
-              <h3>{project.description}</h3>
+              <p>{project.description}</p>
             </div>
           )
         })}

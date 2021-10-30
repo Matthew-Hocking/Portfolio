@@ -126,7 +126,7 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
-  grid-gap: 2rem;
+  grid-gap: 3rem;
 }
 
 .project-card {
@@ -136,10 +136,12 @@ a:hover {
   padding: 20px;
   box-shadow: 5px 10px 8px #000;
 }
+.project-card p {
+  margin-top: 5px;
+}
 .project-card img {
   border-radius: 4px;
-  width: 100px;
-  height: 100px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map*/
