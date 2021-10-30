@@ -2,6 +2,7 @@ import React from 'react'
 
 import LandingTypewriter from './LandingTypewriter'
 import Project from './views/Projects'
+import AboutMe from './views/AboutMe'
 
 const Landing = () => {
   return (
@@ -13,6 +14,7 @@ const Landing = () => {
         </div>
       </div>
       <Project />
+      <AboutMe />
     </>
   )
 }

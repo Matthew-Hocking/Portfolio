@@ -5,7 +5,7 @@ import projects from '../../data/projects'
 const Projects = () => {
 
   return (
-    <div className="project-container">
+    <div className="container">
       <div className="title">
         <h1>Projects</h1>
       </div>
@@ -13,9 +13,12 @@ const Projects = () => {
         {projects.map(project => {
           return (
             <div className="project-card" key={project.name}>
-              <img src={project.image} alt={project.name} />
-              <h2>{project.name}</h2>
-              <p>{project.description}</p>
+              <a href={project.link}>
+                <img src={project.image} alt={project.name} />
+                <h2>{project.name}</h2>
+                <p>{project.description}</p>
+                <p id="tools">{project.tools}</p>
+              </a>
             </div>
           )
         })}

@@ -11,16 +11,21 @@
   background-color: $col-nav-bg;
   overflow-x: hidden;
   border-right: 1px solid $col-nav;
+  a {
+    margin: 10px 0px;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    border-radius: 5px;
+  }
+  a:hover{
+    border-radius: 5px;
+    background-color: $col-hover;
+    box-shadow: 5px 10px 8px #000;
+  }
 }
 
-a {
-  margin: 10px 0px;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-size: 15px;
-  display: block;
-  border-radius: 5px;
-}
 .nav-home {
   svg:hover {
     color: $col-text;
@@ -35,10 +40,4 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-a:hover{
-  border-radius: 5px;
-  background-color: $col-hover;
-  box-shadow: 5px 10px 8px #000;
 }
