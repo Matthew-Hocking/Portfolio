@@ -136,8 +136,11 @@ a:hover {
   padding: 20px;
   box-shadow: 5px 10px 8px #000;
 }
+.project-card h2 {
+  margin-top: 16px;
+}
 .project-card p {
-  margin-top: 5px;
+  margin-top: 16px;
 }
 .project-card img {
   border-radius: 4px;
