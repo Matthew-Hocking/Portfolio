@@ -6,19 +6,20 @@ const Projects = () => {
 
   return (
     <div className="project-container">
-      <div class="title">Projects</div>
-        <div className="card-container">
-          {projects.map(project => {
-            return (
-              <div className="project-card">
-                <a href={project.link}>
-                  <h3>{project.name}</h3>
-                  <h3>{project.description}</h3>
-                </a>
-              </div>
-            )
-          })}
-        </div>
+      <div className="title">
+        <h1>Projects</h1>
+      </div>
+      <div className="card-container">
+        {projects.map(project => {
+          return (
+            <div className="project-card" key={project.name}>
+              <img src={project.image} alt={project.name} />
+              <h2>{project.name}</h2>
+              <h3>{project.description}</h3>
+            </div>
+          )
+        })}
+      </div>
     </div>
   )
 }

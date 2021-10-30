@@ -1,15 +1,18 @@
 .title {
-  font-size: 6rem;
+  font-size: 3vw;
   font-weight: 700;
-  color: $col-hover;
+  color: $col-text;
+  text-shadow: 5px 10px 8px #000;
 }
 
 #name {
-  font-size: 6rem;
+  font-size: 7vw;
+  text-shadow: 5px 10px 8px #000;
   // font-weight: 700;
 }
 
 #role {
-  font-size: 3.5rem;
+  font-size: 4vw;
   color: $col-hover;
+  text-shadow: 5px 10px 8px #000;
 }

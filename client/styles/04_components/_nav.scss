@@ -19,6 +19,7 @@ a {
   text-decoration: none;
   font-size: 15px;
   display: block;
+  border-radius: 5px;
 }
 .nav-home {
   svg:hover {
@@ -37,7 +38,7 @@ a {
 }
 
 a:hover{
-border-radius: 5px;
-background-color: $col-hover;
-// color: $col-hover;
+  border-radius: 5px;
+  background-color: $col-hover;
+  box-shadow: 5px 10px 8px #000;
 }
