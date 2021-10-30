@@ -53,10 +53,6 @@ body::-webkit-scrollbar-thumb {
   /* roundness of the scroll thumb */
 }
 
-.feed {
-  margin-left: 250px;
-}
-
 a {
   color: #fff;
   text-decoration: none;
@@ -69,6 +65,10 @@ a :hover {
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+.feed {
+  margin-left: 250px;
 }
 
 .container {

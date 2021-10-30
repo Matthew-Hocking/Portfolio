@@ -13,7 +13,7 @@ const Projects = () => {
         {projects.map(project => {
           return (
             <div className="project-card" key={project.name}>
-              <a href={project.link}>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img src={project.image} alt={project.name} />
                 <h2>{project.name}</h2>
                 <p>{project.description}</p>

@@ -14,7 +14,7 @@ const Nav = () => {
       </div>
       <div className="nav-links">
         <Link to="/projects">Projects</Link>
-        <Link to="/blogs">Blog</Link>
+        <a href="https://matthew-hocking.github.io/" target="_blank" rel="noopener noreferrer">Blog</a>
         <Link to="/about_me">About Me</Link>
         <Link to="/contacts">Contact</Link>
       </div>
