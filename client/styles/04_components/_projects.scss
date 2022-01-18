@@ -8,7 +8,6 @@
 
 .project-card {
   height: fit-content;
-  background-color: $col-nav-bg;
   border-radius: 6px;
   padding: 20px;
   transition: 0.2s;
@@ -19,16 +18,8 @@
     margin-top: 16px;
   }
   img {
+    border: 1px solid #fff;
     border-radius: 6px;
     width: 100%;
-  }
-}
-
-.project-card:hover {
-  background-color: $col-hover;
-  transition: 0.2s;
-  box-shadow: 5px 10px 8px #000;
-  #tools {
-    color: $col-nav-bg
   }
 }

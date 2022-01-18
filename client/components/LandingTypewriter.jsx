@@ -4,7 +4,8 @@ import Typewriter from 'typewriter-effect'
 const LandingTypewriter = () => {
   const phrases = [
     "Full Stack Web Developer",
-    "Curious and Creative"
+    "Curious and Creative",
+    "Loves a challenge"
   ]
 
   return (

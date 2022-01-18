@@ -7,7 +7,6 @@ const AboutMe = () => {
         <h1>About Me</h1>
       </div>
       <div>
-        
       </div>
     </div>
   )
