@@ -1,5 +1,6 @@
 import React from 'react'
 
+import ProjectTypewriter from '../ProjectTypewriter'
 import projects from '../../data/projects'
 
 const Projects = () => {
@@ -7,13 +8,12 @@ const Projects = () => {
   return (
     <div className="container">
       <div className="title">
-        <h1>Projects</h1>
+        <h1 id="heading">Every project is an opportunity to</h1>
+        <h1 id="heading">
+          <span id="tools"><ProjectTypewriter /> </span>
+        </h1>
       </div>
-      <div className="container">
-        <h2>
-          Each project is an opportunity to <span id="tools">learn</span>. The goal is that I'm learning something new and making it work, while having some fun along the way.
-        </h2>
-      </div>
+
       <div className="card-container">
         {projects.map(project => {
           return (

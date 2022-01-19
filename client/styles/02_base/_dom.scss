@@ -12,6 +12,10 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+h1, h2 {
+  font-weight: 300;
+}
+
 body::-webkit-scrollbar {
   width: 8px;               /* width of the entire scrollbar */
 }
@@ -30,6 +34,8 @@ a {
   color: $col-text;
   text-decoration: none;
   transition: 0.2s;
+  margin: 30px;
+  padding: 15px;
   :hover {
     transition: 0.2s;
   }
