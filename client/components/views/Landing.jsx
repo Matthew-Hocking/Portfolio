@@ -1,7 +1,6 @@
 import React from 'react'
 
-import LandingTypewriter from './LandingTypewriter'
-import Project from './views/Projects'
+import LandingTypewriter from '../Typewriters/LandingTypewriter'
 
 const Landing = () => {
   return (

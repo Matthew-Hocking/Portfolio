@@ -3,9 +3,10 @@ import Typewriter from 'typewriter-effect'
 
 const LandingTypewriter = () => {
   const phrases = [
-    "Learn",
-    "Create",
-    "Have Fun"
+    "Front-End Web Developer",
+    "Curious and Creative",
+    "Problem Solver",
+    "Design Enthusiast"
   ]
 
   return (

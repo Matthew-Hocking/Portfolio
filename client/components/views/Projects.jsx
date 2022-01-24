@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ProjectTypewriter from '../ProjectTypewriter'
+import ProjectTypewriter from '../Typewriters/ProjectTypewriter'
 import projects from '../../data/projects'
 
 const Projects = () => {

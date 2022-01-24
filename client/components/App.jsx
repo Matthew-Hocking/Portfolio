@@ -2,7 +2,7 @@ import React from 'react'
 import { Route } from 'react-router-dom'
 
 import Nav from './Nav'
-import Landing from './Landing'
+import Landing from './views/Landing'
 import Projects from './views/Projects'
 import AboutMe from './views/AboutMe'
 
