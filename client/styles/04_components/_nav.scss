@@ -12,10 +12,9 @@
     font-weight: 700;
   }
   a:hover {
-    color: $col-background;
-    background-color: $col-highlight;
+    color: $col-highlight;
     path {
-      fill: $col-background;
+      fill: $col-highlight;
     }
   }
 }
