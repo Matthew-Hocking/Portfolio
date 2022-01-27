@@ -5,4 +5,8 @@
   height: 80vh;
   justify-content: center;
   text-align: center;
+
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }

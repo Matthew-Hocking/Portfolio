@@ -31,13 +31,11 @@
   justify-content: center;
   a {
     color: $col-highlight;
-    border: 2px solid $col-text;
     border-radius: 25px;
     font-weight: 700;
   }
   a:hover {
     color: $col-background;
     background-color: $col-highlight;
-    border: 2px solid $col-highlight;
   }
 }

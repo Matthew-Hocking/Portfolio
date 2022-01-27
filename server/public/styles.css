@@ -58,6 +58,14 @@ body::-webkit-scrollbar-thumb {
   /* roundness of the scroll thumb */
 }
 
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 a {
   color: #fff;
   text-decoration: none;
@@ -75,6 +83,9 @@ ul {
 
 .container {
   margin: 100px 0px;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .app-container {
@@ -90,6 +101,9 @@ ul {
   height: 80vh;
   justify-content: center;
   text-align: center;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 .card-container {
@@ -126,18 +140,15 @@ ul {
 }
 .project-links a {
   color: #f8eb2c;
-  border: 2px solid #fff;
   border-radius: 25px;
   font-weight: 700;
 }
 .project-links a:hover {
   color: #151c49;
   background-color: #f8eb2c;
-  border: 2px solid #f8eb2c;
 }
 
 .nav--container {
-  background-color: #151c49;
   display: flex;
   flex-direction: row;
   justify-content: center;
