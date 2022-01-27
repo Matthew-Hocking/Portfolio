@@ -1,0 +1,17 @@
+.nav--container {
+  background-color: $col-background;
+  display: flex;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  a {
+    margin: 30px;
+  }
+  a:hover {
+    border-bottom: 0.2px solid #eee;
+  }
+}

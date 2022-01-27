@@ -20,8 +20,24 @@
     margin-top: 16px;
   }
   img {
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 6px;
     width: 100%;
+  }
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  a {
+    color: $col-highlight;
+    border: 2px solid $col-text;
+    border-radius: 25px;
+    font-weight: 700;
+  }
+  a:hover {
+    color: $col-background;
+    background-color: $col-highlight;
+    border: 2px solid $col-highlight;
   }
 }
