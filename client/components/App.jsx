@@ -9,12 +9,11 @@ import Footer from './views/Footer'
 
 const App = () => (
   <>
+    <div id="bg"></div>
     <Route path="/" component={Nav} />
-      <div className='app-container'>
-        <Route exact path="/" component={Landing} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/about_me" component={AboutMe} />
-      </div>
+    <Route exact path="/" component={Landing} />
+    <Route exact path="/projects" component={Projects} />
+    <Route exact path="/about_me" component={AboutMe} />
     <Route path="/" component={Footer} />
   </>
 )

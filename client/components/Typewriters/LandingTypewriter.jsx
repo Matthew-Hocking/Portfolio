@@ -5,7 +5,6 @@ const LandingTypewriter = () => {
   const phrases = [
     "Front-End Web Developer",
     "Curious and Creative",
-    "Problem Solver",
     "Design Enthusiast"
   ]
 
