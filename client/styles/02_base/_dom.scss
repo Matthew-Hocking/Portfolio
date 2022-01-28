@@ -4,6 +4,7 @@
 
 html {
   overflow-x: hidden;
+  overflow-y: scroll;
   color: $col-text;
 }
 
@@ -16,7 +17,7 @@ h1, h2 {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 body::-webkit-scrollbar {

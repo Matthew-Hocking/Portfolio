@@ -11,7 +11,7 @@ const Projects = () => {
       <div className="title">
         <h1 id="heading">Every project is an opportunity to</h1>
         <h1 id="role">
-          <span id="tools"><ProjectTypewriter /> </span>
+          <span id="highlight"><ProjectTypewriter /> </span>
         </h1>
       </div>
 
