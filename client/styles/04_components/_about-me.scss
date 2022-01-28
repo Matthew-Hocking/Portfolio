@@ -1,0 +1,12 @@
+#profile-image {
+  border: 2px solid $col-text;
+  border-radius: 50%;
+  width: 20vw;
+  margin-bottom: 100px;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
