@@ -21,7 +21,7 @@ const Projects = () => {
             <>
               <div className="project-card" key={project.name}>
                 <img src={project.image} alt={project.name} />
-                <h2>{project.name}</h2>
+                <h1>{project.name}</h1>
                 <p>{project.description}</p>
                 <p id="tools">{project.tools}</p> 
                 <div className='project-links'>

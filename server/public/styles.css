@@ -44,10 +44,6 @@ h1, h2 {
   font-weight: 300;
 }
 
-p {
-  font-size: 1.4rem;
-}
-
 body::-webkit-scrollbar {
   width: 8px;
   /* width of the entire scrollbar */
@@ -131,6 +127,9 @@ ul {
   grid-auto-rows: auto;
   grid-gap: 3rem;
 }
+.card-container p {
+  font-size: 1.4rem;
+}
 
 .project-card {
   height: fit-content;
@@ -138,7 +137,7 @@ ul {
   padding: 20px;
   transition: 0.2s;
 }
-.project-card h2 {
+.project-card h1 {
   font-weight: 700;
   text-align: center;
   margin-top: 16px;
@@ -188,6 +187,7 @@ ul {
 }
 
 .nav {
+  max-height: 75px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -212,6 +212,7 @@ ul {
 }
 
 .footer {
+  max-height: 75px;
   display: flex;
   justify-content: flex-end;
   width: 95vw;
@@ -228,13 +229,20 @@ ul {
   border-radius: 50%;
   width: 20vw;
   min-width: 200px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .profile-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+}
+
+.profile-blurb {
+  margin-top: 20px;
+  width: 70vw;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map*/
