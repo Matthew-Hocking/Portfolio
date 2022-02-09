@@ -1,6 +1,7 @@
 {
   "name": "boilerplate-react-webpack",
   "version": "0.2.3",
+  "homepage": "https://matthew-hocking.github.io/Portfolio/",
   "description": "A webpack React starter",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
   "main": "server/index.js",
@@ -15,6 +16,8 @@
     "build": "npm run webpack",
     "server": "node server",
     "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test:watch": "jest --watchAll --verbose",
     "webpack": "webpack --config ./client/webpack.config.js",
     "lint": "eslint --ext .js,.jsx .",
@@ -45,12 +48,12 @@
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "gh-pages": "^3.2.3",
     "knex": "^0.95.4",
     "react-router-dom": "^5.3.0",
     "typewriter-effect": "^2.18.2"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "@babel/core": "7.13.1",
     "@babel/plugin-proposal-class-properties": "7.13.0",
     "@babel/plugin-proposal-object-rest-spread": "7.13.0",
