@@ -1,7 +1,7 @@
 {
   "name": "boilerplate-react-webpack",
   "version": "0.2.3",
-  "homepage": "https://matthew-hocking.github.io/Portfolio/",
+  "homepage": "https://matthew-hocking.github.io/Portfolio",
   "description": "A webpack React starter",
   "repository": "https://github.com/dev-academy-challenges/boilerplate-react-webpack.git",
   "main": "server/index.js",
@@ -44,7 +44,6 @@
     ]
   },
   "dependencies": {
-    "gh-pages": "^3.2.3",
     "camelcase-keys": "^6.2.2",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -62,6 +61,7 @@
     "@babel/preset-react": "7.12.13",
     "@testing-library/react": "11.2.5",
     "babel-loader": "^8.2.2",
+    "gh-pages": "^3.2.3",
     "css-loader": "^5.2.1",
     "eslint": "7.9.0",
     "eslint-config-eda": "0.1.4",
