@@ -3,8 +3,15 @@ import React from 'react'
 import projects from '../../data/projects'
 import ProjectTypewriter from '../Typewriters/ProjectTypewriter'
 
-const Projects = () => {
+const linkIsValid = (projects) => {
+  return projects.link ? 
+    <a href={projects.link} target="_blank">Link</a>
+    : null
+}
 
+const Projects = () => {
+  
+  
   return (
     <div className="container">
 
@@ -26,6 +33,7 @@ const Projects = () => {
                 <p id="tools">{project.tools}</p> 
                 <div className='project-links'>
                   <a href={project.github} target="_blank">Github</a>
+                  {linkIsValid(project)}
                 </div>
               </div>
             </>
