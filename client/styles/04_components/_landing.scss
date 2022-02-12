@@ -10,3 +10,12 @@
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
+@media (max-width: 800px) {
+  #name {
+    font-size: 90px;
+  }
+  #role {
+    font-size: 35px;
+  }
+}

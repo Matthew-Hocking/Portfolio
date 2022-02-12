@@ -11,7 +11,6 @@ const linkIsValid = (projects) => {
 
 const Projects = () => {
   
-  
   return (
     <div className="container">
 
