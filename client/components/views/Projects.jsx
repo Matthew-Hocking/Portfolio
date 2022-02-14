@@ -9,6 +9,18 @@ function checkForLink(projects) {
     : null
 }
 
+function checkforGithub(projects) {
+  return projects.github ?
+    <a href={projects.github} target="_blank">Github</a>
+    : null
+}
+
+function checkForImage(projects) {
+  return projects.image ?
+    <img src={projects.image} alt={projects.name} />
+    : null
+}
+
 function Projects() {
 
   return (
@@ -24,18 +36,16 @@ function Projects() {
       <div className="card-container">
         {projects.map(project => {
           return (
-            <>
-              <div className="project-card" key={project.name}>
-                <img src={project.image} alt={project.name} />
-                <h1>{project.name}</h1>
-                <p>{project.description}</p>
-                <p id="tools">{project.tools}</p>
-                <div className='project-links'>
-                  <a href={project.github} target="_blank">Github</a>
-                  {checkForLink(project)}
-                </div>
+            <div className="project-card" key={project.name}>
+              {checkForImage(project)}
+              <h1>{project.name}</h1>
+              <p>{project.description}</p>
+              <p id="tools">{project.tools}</p>
+              <div className='project-links'>
+                {checkforGithub(project)}
+                {checkForLink(project)}
               </div>
-            </>
+            </div>
           )
         })}
       </div>
