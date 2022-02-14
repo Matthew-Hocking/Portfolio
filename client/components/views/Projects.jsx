@@ -3,21 +3,21 @@ import React from 'react'
 import projects from '../../data/projects'
 import ProjectTypewriter from '../Typewriters/ProjectTypewriter'
 
-function checkForLink(projects) {
-  return projects.link ?
-    <a href={projects.link} target="_blank">Live Site</a>
+function checkForLink(project) {
+  return project.link ?
+    <a href={project.link} target="_blank">HerokuApp</a>
     : null
 }
 
-function checkforGithub(projects) {
-  return projects.github ?
-    <a href={projects.github} target="_blank">Github</a>
+function checkforGithub(project) {
+  return project.github ?
+    <a href={project.github} target="_blank">Github</a>
     : null
 }
 
-function checkForImage(projects) {
-  return projects.image ?
-    <img src={projects.image} alt={projects.name} />
+function checkForImage(project) {
+  return project.image ?
+    <img src={project.image} alt={projects.name} />
     : null
 }
 
