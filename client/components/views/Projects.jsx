@@ -3,14 +3,14 @@ import React from 'react'
 import projects from '../../data/projects'
 import ProjectTypewriter from '../Typewriters/ProjectTypewriter'
 
-const linkIsValid = (projects) => {
-  return projects.link ? 
-    <a href={projects.link} target="_blank">Link</a>
+function checkForLink(projects) {
+  return projects.link ?
+    <a href={projects.link} target="_blank">Live Site</a>
     : null
 }
 
-const Projects = () => {
-  
+function Projects() {
+
   return (
     <div className="container">
 
@@ -29,17 +29,17 @@ const Projects = () => {
                 <img src={project.image} alt={project.name} />
                 <h1>{project.name}</h1>
                 <p>{project.description}</p>
-                <p id="tools">{project.tools}</p> 
+                <p id="tools">{project.tools}</p>
                 <div className='project-links'>
                   <a href={project.github} target="_blank">Github</a>
-                  {linkIsValid(project)}
+                  {checkForLink(project)}
                 </div>
               </div>
             </>
           )
         })}
       </div>
-      
+
     </div>
   )
 }

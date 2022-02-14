@@ -2,7 +2,7 @@ import React from 'react'
 
 import LandingTypewriter from '../Typewriters/LandingTypewriter'
 
-const Landing = () => {
+function Landing() {
   return (
     <>
       <div className="landing">

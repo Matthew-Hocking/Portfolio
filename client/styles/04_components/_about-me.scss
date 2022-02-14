@@ -16,5 +16,12 @@
 .profile-blurb {
   margin-top: 20px;
   width: 70vw;
+  max-width: 800px;
   font-size: 2rem;
+}
+
+@media (max-width:800px) {
+  .profile-blurb {
+    font-size: 1rem;
+  }
 }

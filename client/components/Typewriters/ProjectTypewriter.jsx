@@ -5,7 +5,7 @@ const LandingTypewriter = () => {
   const phrases = [
     "Learn and Grow",
     "Invent and Reinvent",
-    ""
+    "Provide Solutions"
   ]
 
   return (
