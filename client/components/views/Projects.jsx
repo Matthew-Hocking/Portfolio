@@ -5,7 +5,7 @@ import ProjectTypewriter from '../Typewriters/ProjectTypewriter'
 
 function checkForLink(project) {
   return project.link ?
-    <a href={project.link} target="_blank">HerokuApp</a>
+    <a href={project.link} target="_blank">App</a>
     : null
 }
 
