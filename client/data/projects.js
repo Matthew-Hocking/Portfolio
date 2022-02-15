@@ -1,7 +1,8 @@
 export default [
   {
     name: "Hihi",
-    link: "https://hihi-app.herokuapp.com/#/",
+    deployLink: "https://hihi-app.herokuapp.com/#/",
+    deployMethod: "HerokuApp",
     github: "https://github.com/Matthew-Hocking/Hihi",
     image: 'images/hihi.jpg',
     description: "Hihi is a social media app heavily inspired by Twitter. A group project in the final week of Bootcamp at Enspiral Development Academy as a culmination of efforts and learnings, heavily built using React + Redux."
@@ -26,14 +27,16 @@ export default [
   },
   {
     name: "CatFacts",
-    link: "http://getcatfacts.herokuapp.com/",
+    deployLink: "http://getcatfacts.herokuapp.com/",
+    deployMethod: "HerokuApp",
     github: "https://github.com/Matthew-Hocking/Cat-Facts",
     image: 'images/cf.jpg',
     description: "CatFacts simply provides a random fact about cats, and with a click will return a new one. Being a solo project, this was my first opportunity at getting familiar with external APIs."
   },
   {
     name: "Matthew Hocking Blog",
-    link: "https://matthew-hocking.github.io/",
+    deployLink: "https://matthew-hocking.github.io/",
+    deployMethod: "Github Pages",
     github: "https://github.com/Matthew-Hocking/Matthew-Hocking.github.io",
     image: "images/blog.jpg",
     description: "This is a personal blog I created as part of the curriculum at Enspiral Dev Academy, and the first thing I ever created. Admittedly it's trash, but I love to keep it around as it's a great reminder of my progress and learning."

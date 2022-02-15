@@ -4,8 +4,8 @@ import projects from '../../data/projects'
 import ProjectTypewriter from '../Typewriters/ProjectTypewriter'
 
 function checkForLink(project) {
-  return project.link ?
-    <a href={project.link} target="_blank">App</a>
+  return project.deployLink ?
+    <a href={project.deployLink} target="_blank">{project.deployMethod}</a>
     : null
 }
 

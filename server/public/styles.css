@@ -172,7 +172,7 @@ ul {
   justify-content: center;
 }
 .project-links a {
-  margin: 0px 10px;
+  margin: 5px 10px;
   color: #f8eb2c;
   border-radius: 25px;
   font-weight: 700;
@@ -192,8 +192,8 @@ ul {
     grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
-  .card-container p {
-    font-size: 1.2rem;
+  .card-container .project-links {
+    flex-direction: column;
   }
 }
 .nav--container {
