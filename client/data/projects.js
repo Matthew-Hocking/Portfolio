@@ -36,7 +36,7 @@ export default [
   {
     name: "Matthew Hocking Blog",
     deployLink: "https://matthew-hocking.github.io/",
-    deployMethod: "Github Pages",
+    deployMethod: "GH Pages",
     github: "https://github.com/Matthew-Hocking/Matthew-Hocking.github.io",
     image: "images/blog.jpg",
     description: "This is a personal blog I created as part of the curriculum at Enspiral Dev Academy, and the first thing I ever created. Admittedly it's trash, but I love to keep it around as it's a great reminder of my progress and learning."
